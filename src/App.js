@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import AnimatedCursor from "react-animated-cursor";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,30 @@ function App() {
           Learn React
         </a>
       </header>
+      <AnimatedCursor
+      innerSize={9}
+      outerSize={12}
+      color='0, 0,0'
+      outerAlpha={0.4}
+      innerScale={0.7}
+      outerScale={7}
+      outerStyle={{  border: '3px solid #fff' }}
+      innerStyle={{  border: '3px solid #fff' }}
+      trailingSpeed={9}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}
+    />
     </div>
   );
 }
