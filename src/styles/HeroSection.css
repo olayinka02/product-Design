@@ -1,0 +1,53 @@
+.herosection{
+   background-image:url(../assets/landingbg.svg);
+   width:100%;
+   background-size: cover;
+   padding-left:5%;
+   padding-right:5%;
+}
+.HerosectionText{
+   margin-top:10%;
+   width:100%;
+}
+.contactbtn{
+   border-radius:0;
+   width:50%;
+   border: '1.5px solid #1C1B1B'!important;;
+}
+
+@media (min-width: 576px) {
+   .HerosectionText{
+      margin-top:10%;
+      width:97%;
+   }
+   .contactbtn{
+      border-radius:0;
+      width:40%;
+      border: '1.5px solid #1C1B1B'!important;;
+   }
+
+}
+
+
+@media (min-width: 768px) {
+   .HerosectionText{
+      margin-top:43%;
+      width:97%;
+   }
+   .contactbtn{
+      border-radius:0;
+      width:38%;
+      border: '1.5px solid #1C1B1B'!important;;
+   }
+
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+}

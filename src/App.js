@@ -1,35 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+
+
+
+
+// import {Circle2} from 'react-preloaders';
+
 
 import AnimatedCursor from "react-animated-cursor";
+import HeroSection from './components/HeroSection';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeroSection />
+    
+     
+    
       <AnimatedCursor
-      innerSize={9}
-      outerSize={12}
-      color='0, 0,0'
-      outerAlpha={0.4}
+      innerSize={5}
+      outerSize={36}
+      color='95,95,95'
+      outerAlpha={0.25}
       innerScale={0.7}
-      outerScale={7}
-      outerStyle={{  border: '3px solid #fff' }}
-      innerStyle={{  border: '3px solid #fff' }}
-      trailingSpeed={9}
+      outerScale={1.5}
+      outerStyle={{  border: '1.5px solid #4A4A4A' }}
+      innerStyle={{  border: '2px solid #4A4A4A' }}
+      trailingSpeed={10}
       clickables={[
         'a',
         'input[type="text"]',
@@ -45,6 +43,7 @@ function App() {
       ]}
     />
     </div>
+  
   );
 }
 
