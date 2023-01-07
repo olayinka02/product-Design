@@ -12,7 +12,7 @@
 .contactbtn{
    border-radius:0;
    width:50%;
-   border: '1.5px solid #1C1B1B'!important;;
+   border:'1.5px solid #1C1B1B'!important;;
 }
 
 @media (min-width: 576px) {
