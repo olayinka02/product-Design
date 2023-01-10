@@ -1,6 +1,11 @@
 .nav {
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-image:url(../assets/landingbg.svg);
+    
+   width:100%;
+   /* background-size: cover; */
+    
 }
 .harmburgerrect{
     fill: #1C1B1B !important;
@@ -78,6 +83,14 @@
 @media (min-width: 768px) {
     .harmburgerrect{
         fill: #F5F5F5 !important;
+    }
+    .nav {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-image:url(../assets/landingbg.svg);
+        width:100%;
+        background-size: cover;
+        
     }
 }
 

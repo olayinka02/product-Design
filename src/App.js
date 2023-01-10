@@ -4,19 +4,21 @@ import React from 'react';
 
 import AnimatedCursor from "react-animated-cursor";
 import HeroSection from './components/HeroSection';
+import NavbarHeader from './components/NavbarHeader';
 
-import { ParallaxProvider } from 'react-scroll-parallax';
-import AboutUs from './components/AboutUs';
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <ParallaxProvider>
+        <NavbarHeader />
       <HeroSection />
-      <AboutUs />
+    
       
-      </ParallaxProvider>
+    
       
      
     
