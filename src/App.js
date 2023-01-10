@@ -1,20 +1,20 @@
 import React from 'react';
 
-
-
-
-
 // import {Circle2} from 'react-preloaders';
-
 
 import AnimatedCursor from "react-animated-cursor";
 import HeroSection from './components/HeroSection';
+
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 function App() {
   return (
     <div className="App">
+      <ParallaxProvider>
       <HeroSection />
+      </ParallaxProvider>
+     
     
      
     

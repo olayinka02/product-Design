@@ -15,7 +15,7 @@ function NavbarHeader() {
 
     return (
         <div>
-            <Navbar>
+            <Navbar  sticky="top" >
                 <Container fluid className="nav" >
                     <Navbar.Brand href="#home">
                         <svg width="90" height="34" style={{ marginLeft: -7, }} viewBox="0 0 112 54" fill="none" xmlns="http://www.w3.org/2000/svg">
