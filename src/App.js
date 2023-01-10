@@ -6,6 +6,7 @@ import AnimatedCursor from "react-animated-cursor";
 import HeroSection from './components/HeroSection';
 
 import { ParallaxProvider } from 'react-scroll-parallax';
+import AboutUs from './components/AboutUs';
 
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
     <div className="App">
       <ParallaxProvider>
       <HeroSection />
+      <AboutUs />
       </ParallaxProvider>
+      
      
     
      
