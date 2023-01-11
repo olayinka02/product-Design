@@ -4,6 +4,7 @@
    background-size: cover;
    padding-left:5%;
    padding-right:5%;
+   padding-top:5rem;
    
   
 }
@@ -17,7 +18,9 @@
    border:'1.5px solid #1C1B1B'!important;;
 }
 .abouturbanImage{
-   margin-top:1rem;
+   margin-top:2rem;
+   margin-left: -15rem;
+   width:26rem,
 }
 
 @media (min-width: 576px) {
@@ -36,11 +39,12 @@
 
 @media (min-width: 768px) {
    .herosection{
-      background-image:url(../assets/landingbg.svg);
+      background-image:url(../assets/landingtwobg.svg);
       width:100%;
       background-size: cover;
       padding-left:5%;
       padding-right:5%;
+      padding-top:2rem;
    }
    .HerosectionText{
       margin-top:43%;
@@ -56,10 +60,24 @@
 
 
 @media (min-width: 992px) {
+   .herosection{
+      background-image:url(../assets/landingtwobg.svg);
+      width:100%;
+      background-size: cover;
+      padding-left:5%;
+      padding-right:5%;
+   }
 
 }
 
 
 @media (min-width: 1200px) {
+   .herosection{
+      background-image:url(../assets/landingbg.svg);
+      width:100%;
+      background-size: cover;
+      padding-left:5%;
+      padding-right:5%;
+   }
 
 }

@@ -3,7 +3,7 @@
     padding-right: 3%;
     background-image:url(../assets/landingbg.svg);
     
-   width:100%;
+    width:100%;
    /* background-size: cover; */
     
 }
@@ -82,6 +82,36 @@
 
 @media (min-width: 768px) {
     .harmburgerrect{
+        fill: #1C1B1B !important;
+    }
+    .nav {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-image:url(../assets/landingtwobg.svg);
+        width:100%;
+        background-size: cover;
+        
+    }
+}
+
+
+@media (min-width: 992px) {
+    .harmburgerrect{
+        fill: #1C1B1B !important;
+    }
+    .nav {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-image:url(../assets/landingtwobg.svg);
+        width:100%;
+        background-size: cover;
+        
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .harmburgerrect{
         fill: #F5F5F5 !important;
     }
     .nav {
@@ -93,12 +123,6 @@
         
     }
 }
-
-
-@media (min-width: 992px) {}
-
-
-@media (min-width: 1200px) {}
 
 
 @media (min-width: 1400px) {}
