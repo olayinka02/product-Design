@@ -3,6 +3,7 @@ import React from 'react';
 // import {Circle2} from 'react-preloaders';
 
 import AnimatedCursor from "react-animated-cursor";
+import AboutUs from './components/AboutUs';
 import HeroSection from './components/HeroSection';
 import NavbarHeader from './components/NavbarHeader';
 
@@ -15,7 +16,8 @@ function App() {
   return (
     <div className="App">
         <NavbarHeader />
-      <HeroSection />
+        <HeroSection />
+        <AboutUs />
     
       
     
@@ -31,8 +33,8 @@ function App() {
       outerAlpha={0.25}
       innerScale={0.7}
       outerScale={1.5}
-      outerStyle={{  border: '1.5px solid #4A4A4A' }}
-      innerStyle={{  border: '2px solid #4A4A4A' }}
+      outerStyle={{ border: '1.5px solid #4A4A4A' }}
+      innerStyle={{ border: '4px solid #ffffff' }}
       trailingSpeed={10}
       clickables={[
         'a',

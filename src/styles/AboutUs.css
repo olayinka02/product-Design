@@ -1,0 +1,56 @@
+.AboutUspage{
+    background-color: #1C1B1B;
+    width:100%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:4rem;
+    padding-bottom:4rem;
+
+}
+.aboutbody{
+    width:100%;
+    color:white;
+}
+
+.aboutbody p{
+    font-size:0.9rem;
+}
+@media (min-width: 576px) {
+   
+ 
+ }
+ 
+ 
+ @media (min-width: 768px) {
+    .AboutUspage{
+        background-color: #1C1B1B;
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+        padding-top:7rem;
+        padding-bottom:7rem;
+    
+    }
+    .aboutbody{
+        width:50%;
+        color:white;
+    }
+
+    .aboutbody p{
+        font-size:0.8rem;
+        line-height:188%;
+    }
+   
+ }
+ 
+ 
+ @media (min-width: 992px) {
+  
+ }
+ 
+ 
+ @media (min-width: 1200px) {
+   
+ 
+ }
+ 
